@@ -8,8 +8,11 @@
 
 > [Week 4](https://www.coursera.org/learn/inferential-statistical-analysis-python/home/week/4)
 
-[x] Week 1 - Overview and Inference Procedures 
-[ ] Week 2 - Confidence Intervals 
-[ ] Week 3 - Hypothesis Testing
+[x]Week 1 - Overview and Inference Procedures 
+
+[ ]Week 2 - Confidence Intervals 
+
+[ ]Week 3 - Hypothesis Testing
+
 [ ] Week 4 - Learner Application
 
