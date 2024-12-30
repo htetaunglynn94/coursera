@@ -1,0 +1,279 @@
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@1984222e]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@559ce58d]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@1984222e]
+2024.10.22 10:51:44 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.10.22 10:51:44 INFO  no build target found for /home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/src/main/scala/example/example.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.22 10:51:46 INFO  Running List(/home/htetaunglynn/.local/share/coursier/bin/scala-cli, setup-ide, /home/htetaunglynn/git/coursera/big_data_analysis)
+2024.10.22 10:51:46 INFO  Attempting to connect to the build server...
+2024.10.22 10:51:46 INFO  Running BSP server List(/home/htetaunglynn/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/htetaunglynn/git/coursera/big_data_analysis/.scala-build/ide-options-v2.json, --json-launcher-options, /home/htetaunglynn/git/coursera/big_data_analysis/.scala-build/ide-launcher-options.json, --envs-file, /home/htetaunglynn/git/coursera/big_data_analysis/.scala-build/ide-envs.json, /home/htetaunglynn/git/coursera/big_data_analysis)
+2024.10.22 10:51:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/htetaunglynn/git/coursera/big_data_analysis/.metals/bsp.trace.json or /home/htetaunglynn/.cache/metals/bsp.trace.json
+2024.10.22 10:51:47 INFO  BSP server: Checking https://github.com/coursier/jvm-index/raw/master/index.json
+2024.10.22 10:51:47 INFO  BSP server: Checked https://github.com/coursier/jvm-index/raw/master/index.json
+2024.10.22 10:51:47 INFO  BSP server: Downloading https://github.com/coursier/jvm-index/raw/master/index.json
+2024.10.22 10:51:47 INFO  BSP server: Downloaded https://github.com/coursier/jvm-index/raw/master/index.json
+2024.10.22 10:51:47 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-frontend_2.12/2.0.2/bloop-frontend_2.12-2.0.2.pom
+2024.10.22 10:51:49 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-frontend_2.12/2.0.2/bloop-frontend_2.12-2.0.2.pom
+2024.10.22 10:51:49 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.20/scala-library-2.12.20.pom
+2024.10.22 10:51:49 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/scala-debug-adapter_2.12/4.2.1/scala-debug-adapter_2.12-4.2.1.pom
+2024.10.22 10:51:49 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-backend_2.12/2.0.2/bloop-backend_2.12-2.0.2.pom
+2024.10.22 10:51:49 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-shared_2.12/2.0.2/bloop-shared_2.12-2.0.2.pom
+2024.10.22 10:51:49 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/libdaemon_2.12/0.0.12/libdaemon_2.12-0.0.12.pom
+2024.10.22 10:51:49 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/2.0.3/bloop-config_2.12-2.0.3.pom
+2024.10.22 10:51:49 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.20/scala-library-2.12.20.pom
+2024.10.22 10:51:49 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.5.8/logback-classic-1.5.8.pom
+2024.10.22 10:51:49 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.5.8/logback-classic-1.5.8.pom
+2024.10.22 10:51:49 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-shared_2.12/2.0.2/bloop-shared_2.12-2.0.2.pom
+2024.10.22 10:51:49 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-backend_2.12/2.0.2/bloop-backend_2.12-2.0.2.pom
+2024.10.22 10:51:49 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/2.0.3/bloop-config_2.12-2.0.3.pom
+2024.10.22 10:51:49 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/libdaemon_2.12/0.0.12/libdaemon_2.12-0.0.12.pom
+2024.10.22 10:51:49 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/scala-debug-adapter_2.12/4.2.1/scala-debug-adapter_2.12-4.2.1.pom
+2024.10.22 10:51:49 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.5.8/logback-parent-1.5.8.pom
+2024.10.22 10:51:50 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.5.8/logback-parent-1.5.8.pom
+2024.10.22 10:51:50 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/nailgun-server/1.0.7/nailgun-server-1.0.7.pom
+2024.10.22 10:51:50 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/com-microsoft-java-debug-core/0.34.0+32/com-microsoft-java-debug-core-0.34.0+32.pom
+2024.10.22 10:51:50 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.9.9/parsers_2.12-4.9.9.pom
+2024.10.22 10:51:50 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.21/interface-1.0.21.pom
+2024.10.22 10:51:50 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.20/scala-reflect-2.12.20.pom
+2024.10.22 10:51:50 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.15/slf4j-api-2.0.15.pom
+2024.10.22 10:51:50 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.21/interface-1.0.21.pom
+2024.10.22 10:51:50 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.5.8/logback-core-1.5.8.pom
+2024.10.22 10:51:50 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/com-microsoft-java-debug-core/0.34.0+32/com-microsoft-java-debug-core-0.34.0+32.pom
+2024.10.22 10:51:50 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/nailgun-server/1.0.7/nailgun-server-1.0.7.pom
+2024.10.22 10:51:50 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.20/scala-reflect-2.12.20.pom
+2024.10.22 10:51:50 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.9.9/parsers_2.12-4.9.9.pom
+2024.10.22 10:51:50 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.5.8/logback-core-1.5.8.pom
+2024.10.22 10:51:50 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.15/slf4j-api-2.0.15.pom
+2024.10.22 10:51:50 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/2.0.15/slf4j-parent-2.0.15.pom
+2024.10.22 10:51:51 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/2.0.15/slf4j-parent-2.0.15.pom
+2024.10.22 10:51:51 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-bom/2.0.15/slf4j-bom-2.0.15.pom
+2024.10.22 10:51:51 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/slf4j/slf4j-bom/2.0.15/slf4j-bom-2.0.15.pom
+2024.10.22 10:51:51 INFO  BSP server: Downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.5.2/jna-4.5.2.pom
+2024.10.22 10:51:51 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.17.0/commons-lang3-3.17.0.pom
+2024.10.22 10:51:51 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.9.9/trees_2.12-4.9.9.pom
+2024.10.22 10:51:51 INFO  BSP server: Downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/4.4.0/jna-platform-4.4.0.pom
+2024.10.22 10:51:51 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/4.4.0/jna-platform-4.4.0.pom
+2024.10.22 10:51:51 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.9.9/trees_2.12-4.9.9.pom
+2024.10.22 10:51:51 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.5.2/jna-4.5.2.pom
+2024.10.22 10:51:51 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.17.0/commons-lang3-3.17.0.pom
+2024.10.22 10:51:51 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/73/commons-parent-73.pom
+2024.10.22 10:51:52 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/apache/commons/commons-parent/73/commons-parent-73.pom
+2024.10.22 10:51:52 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/apache/apache/33/apache-33.pom
+2024.10.22 10:51:52 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/apache/apache/33/apache-33.pom
+2024.10.22 10:51:52 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/junit/junit-bom/5.11.0/junit-bom-5.11.0.pom
+2024.10.22 10:51:52 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/junit/junit-bom/5.11.0/junit-bom-5.11.0.pom
+2024.10.22 10:51:52 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.10.1/util-control_2.12-1.10.1.pom
+2024.10.22 10:51:52 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.10.1/util-logging_2.12-1.10.1.pom
+2024.10.22 10:51:52 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.pom
+2024.10.22 10:51:52 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.10.1/util-relation_2.12-1.10.1.pom
+2024.10.22 10:51:52 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.12/4.9.9/common_2.12-4.9.9.pom
+2024.10.22 10:51:52 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.10.1/util-logging_2.12-1.10.1.pom
+2024.10.22 10:51:52 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.pom
+2024.10.22 10:51:52 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.12/4.9.9/common_2.12-4.9.9.pom
+2024.10.22 10:51:52 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.10.1/util-relation_2.12-1.10.1.pom
+2024.10.22 10:51:52 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.10.1/util-control_2.12-1.10.1.pom
+2024.10.22 10:51:52 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.10.1/core-macros_2.12-1.10.1.pom
+2024.10.22 10:51:52 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.10.1/collections_2.12-1.10.1.pom
+2024.10.22 10:51:52 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.10.1/util-interface-1.10.1.pom
+2024.10.22 10:51:53 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.10.1/util-interface-1.10.1.pom
+2024.10.22 10:51:53 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.10.1/core-macros_2.12-1.10.1.pom
+2024.10.22 10:51:53 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.10.1/collections_2.12-1.10.1.pom
+2024.10.22 10:51:53 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.10.1/util-position_2.12-1.10.1.pom
+2024.10.22 10:51:53 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.10.1/util-position_2.12-1.10.1.pom
+2024.10.22 10:51:53 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.12/4.9.9/common_2.12-4.9.9.jar
+2024.10.22 10:51:53 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.10.1/util-control_2.12-1.10.1.jar
+2024.10.22 10:51:53 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-backend_2.12/2.0.2/bloop-backend_2.12-2.0.2.jar
+2024.10.22 10:51:53 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.10.1/collections_2.12-1.10.1.jar
+2024.10.22 10:51:53 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.10.1/core-macros_2.12-1.10.1.jar
+2024.10.22 10:51:53 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.15/slf4j-api-2.0.15.jar
+2024.10.22 10:51:53 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.10.1/util-control_2.12-1.10.1.jar
+2024.10.22 10:51:53 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/2.0.3/bloop-config_2.12-2.0.3.jar
+2024.10.22 10:51:53 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.10.1/core-macros_2.12-1.10.1.jar
+2024.10.22 10:51:53 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/libdaemon_2.12/0.0.12/libdaemon_2.12-0.0.12.jar
+2024.10.22 10:51:55 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/libdaemon_2.12/0.0.12/libdaemon_2.12-0.0.12.jar
+2024.10.22 10:51:55 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar
+2024.10.22 10:51:55 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.15/slf4j-api-2.0.15.jar
+2024.10.22 10:51:55 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.10.1/util-logging_2.12-1.10.1.jar
+2024.10.22 10:51:55 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/2.0.3/bloop-config_2.12-2.0.3.jar
+2024.10.22 10:51:55 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.10.1/util-relation_2.12-1.10.1.jar
+2024.10.22 10:51:55 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.10.1/collections_2.12-1.10.1.jar
+2024.10.22 10:51:55 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-shared_2.12/2.0.2/bloop-shared_2.12-2.0.2.jar
+2024.10.22 10:51:55 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-backend_2.12/2.0.2/bloop-backend_2.12-2.0.2.jar
+2024.10.22 10:51:55 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/bloop-frontend_2.12/2.0.2/bloop-frontend_2.12-2.0.2.jar
+2024.10.22 10:51:55 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.10.1/util-relation_2.12-1.10.1.jar
+2024.10.22 10:51:55 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.9.9/parsers_2.12-4.9.9.jar
+2024.10.22 10:51:55 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.12/4.9.9/common_2.12-4.9.9.jar
+2024.10.22 10:51:55 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.20/scala-library-2.12.20.jar
+2024.10.22 10:51:55 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-shared_2.12/2.0.2/bloop-shared_2.12-2.0.2.jar
+2024.10.22 10:51:55 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.10.1/util-position_2.12-1.10.1.jar
+2024.10.22 10:51:55 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.10.1/util-position_2.12-1.10.1.jar
+2024.10.22 10:51:55 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/nailgun-server/1.0.7/nailgun-server-1.0.7.jar
+2024.10.22 10:51:55 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.10.1/util-logging_2.12-1.10.1.jar
+2024.10.22 10:51:55 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.17.0/commons-lang3-3.17.0.jar
+2024.10.22 10:51:55 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/bloop-frontend_2.12/2.0.2/bloop-frontend_2.12-2.0.2.jar
+2024.10.22 10:51:55 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.21/interface-1.0.21.jar
+2024.10.22 10:51:56 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.9.9/parsers_2.12-4.9.9.jar
+2024.10.22 10:51:56 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/com-microsoft-java-debug-core/0.34.0+32/com-microsoft-java-debug-core-0.34.0+32.jar
+2024.10.22 10:51:56 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/nailgun-server/1.0.7/nailgun-server-1.0.7.jar
+2024.10.22 10:51:56 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.5.8/logback-classic-1.5.8.jar
+2024.10.22 10:51:56 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/com-microsoft-java-debug-core/0.34.0+32/com-microsoft-java-debug-core-0.34.0+32.jar
+2024.10.22 10:51:56 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/scala-debug-adapter_2.12/4.2.1/scala-debug-adapter_2.12-4.2.1.jar
+2024.10.22 10:51:56 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.17.0/commons-lang3-3.17.0.jar
+2024.10.22 10:51:56 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.20/scala-reflect-2.12.20.jar
+2024.10.22 10:51:56 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.20/scala-library-2.12.20.jar
+2024.10.22 10:51:56 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.5.8/logback-core-1.5.8.jar
+2024.10.22 10:51:56 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.5.8/logback-core-1.5.8.jar
+2024.10.22 10:51:56 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.10.1/util-interface-1.10.1.jar
+2024.10.22 10:51:56 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/scala-debug-adapter_2.12/4.2.1/scala-debug-adapter_2.12-4.2.1.jar
+2024.10.22 10:51:56 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.9.9/trees_2.12-4.9.9.jar
+2024.10.22 10:51:56 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.10.1/util-interface-1.10.1.jar
+2024.10.22 10:51:56 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.5.8/logback-classic-1.5.8.jar
+2024.10.22 10:51:56 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.20/scala-reflect-2.12.20.jar
+2024.10.22 10:51:57 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar
+2024.10.22 10:51:57 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.21/interface-1.0.21.jar
+2024.10.22 10:51:57 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.9.9/trees_2.12-4.9.9.jar
+2024.10.22 10:51:57 INFO  BSP server: Starting compilation server
+2024.10.22 10:51:59 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-sbt-bridge/3.5.1/scala3-sbt-bridge-3.5.1.pom
+2024.10.22 10:51:59 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-sbt-bridge/3.5.1/scala3-sbt-bridge-3.5.1.pom
+2024.10.22 10:51:59 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-sbt-bridge/3.5.1/scala3-sbt-bridge-3.5.1.jar
+2024.10.22 10:51:59 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-sbt-bridge/3.5.1/scala3-sbt-bridge-3.5.1.jar
+2024.10.22 10:52:00 INFO  time: Connected to build server in 13s
+2024.10.22 10:52:00 INFO  Connected to Build server: scala-cli v1.5.1
+2024.10.22 10:52:00 INFO  time: Imported build in 0.22s
+2024.10.22 10:52:00 INFO  running doctor check
+2024.10.22 10:52:00 INFO  java targets: big_data_analysis_6be9902dc4, big_data_analysis_6be9902dc4-test
+2024.10.22 10:52:00 INFO  compiling big_data_analysis_6be9902dc4 (1 scala source)
+2024.10.22 10:52:05 INFO  time: compiled big_data_analysis_6be9902dc4 in 4.61s
+2024.10.22 10:52:07 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.10.22 10:52:09 INFO  time: indexed workspace in 8.72s
+2024.10.22 10:52:50 INFO  no build target found for /home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.22 10:52:50 WARN  Could not find semantic tokens for: file:///home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt
+2024.10.22 10:52:51 INFO  time: evaluated worksheet 'example.worksheet.sc' in 5.68s
+2024.10.22 10:52:51 INFO  no build target found for /home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.22 10:52:51 WARN  Could not find semantic tokens for: file:///home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt
+2024.10.22 10:52:52 INFO  no build target found for /home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.22 10:52:52 WARN  Could not find semantic tokens for: file:///home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt
+2024.10.22 10:52:53 INFO  no build target found for /home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.22 10:52:53 INFO  time: code lens generation in 1.46s
+2024.10.22 10:52:53 INFO  time: code lens generation in 2.03s
+2024.10.22 10:53:15 INFO  no build target found for /home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.22 10:53:15 INFO  no build target found for /home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.22 10:53:15 INFO  no build target found for /home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.22 10:53:16 INFO  no build target found for /home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.22 10:53:16 INFO  no build target found for /home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.22 10:53:16 WARN  Could not find semantic tokens for: file:///home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt
+2024.10.22 10:53:16 INFO  no build target found for /home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.22 10:53:17 INFO  no build target found for /home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.22 10:53:18 INFO  no build target found for /home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.22 10:53:18 WARN  Could not find semantic tokens for: file:///home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt
+2024.10.22 10:53:18 INFO  no build target found for /home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.22 10:53:20 INFO  no build target found for /home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.22 10:53:20 INFO  no build target found for /home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.22 10:53:20 INFO  no build target found for /home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.22 10:53:20 INFO  no build target found for /home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.22 10:53:20 WARN  Could not find semantic tokens for: file:///home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt
+2024.10.22 10:53:21 INFO  no build target found for /home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.22 10:53:21 INFO  no build target found for /home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.22 10:53:21 INFO  no build target found for /home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.22 10:53:21 WARN  Could not find semantic tokens for: file:///home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt
+2024.10.22 10:53:21 INFO  no build target found for /home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.22 10:53:22 INFO  no build target found for /home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.22 10:53:22 INFO  no build target found for /home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.22 10:53:22 INFO  no build target found for /home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.22 10:53:24 INFO  no build target found for /home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.22 10:53:24 INFO  no build target found for /home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.22 10:53:24 INFO  no build target found for /home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.22 10:53:24 WARN  Could not find semantic tokens for: file:///home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt
+2024.10.22 10:53:24 INFO  no build target found for /home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.22 10:53:24 INFO  no build target found for /home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.22 10:53:24 INFO  no build target found for /home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.22 10:53:24 INFO  no build target found for /home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.22 10:53:24 WARN  Could not find semantic tokens for: file:///home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt
+2024.10.22 10:53:24 INFO  no build target found for /home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.22 10:53:25 INFO  no build target found for /home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.22 10:53:25 INFO  no build target found for /home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.22 10:53:24 INFO  no build target found for /home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.22 10:53:24 WARN  Could not find semantic tokens for: file:///home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt
+2024.10.22 10:53:25 INFO  no build target found for /home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.22 10:53:25 INFO  no build target found for /home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.22 10:53:25 INFO  no build target found for /home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.22 10:53:25 WARN  Could not find semantic tokens for: file:///home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt
+2024.10.22 10:53:25 INFO  no build target found for /home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.22 10:53:26 INFO  no build target found for /home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.22 10:53:25 INFO  no build target found for /home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.22 10:53:26 INFO  no build target found for /home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.22 10:53:26 WARN  Could not find semantic tokens for: file:///home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt
+2024.10.22 10:53:25 INFO  no build target found for /home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.22 10:53:26 INFO  no build target found for /home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.22 10:53:26 INFO  no build target found for /home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.22 10:53:26 WARN  Could not find semantic tokens for: file:///home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt
+2024.10.22 10:53:31 WARN  no build target for: /home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt
+2024.10.22 10:53:31 INFO  no build target found for /home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.22 10:53:31 WARN  Could not find semantic tokens for: file:///home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt
+2024.10.22 10:53:32 INFO  no build target found for /home/htetaunglynn/git/coursera/big_data_analysis/module_1/scala-project/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.22 10:53:34 INFO  time: evaluated worksheet 'example.worksheet.sc' in 1.04s
+2024.10.22 10:54:05 INFO  Correctly reloaded workspace
+2024.10.22 10:54:05 INFO  running doctor check
+2024.10.22 10:54:05 INFO  java targets: big_data_analysis_6be9902dc4, big_data_analysis_6be9902dc4-test
+2024.10.22 10:54:07 INFO  time: indexed workspace in 1.48s
+2024.10.22 10:55:30 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.94s
+Oct 22, 2024 10:55:41 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at scala.meta.internal.tokenizers.LegacyScanner.initialize(LegacyScanner.scala:157)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:20)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$1.apply(ScalametaTokenizer.scala:313)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:22)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:13)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionStringDocMeta.safeTokenize(ScalametaCommonEnrichments.scala:237)
+	at scala.meta.internal.metals.codeactions.MillifyScalaCliDependencyCodeAction.$anonfun$contribute$3(MillifyScalaCliDependencyCodeAction.scala:40)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.MillifyScalaCliDependencyCodeAction.$anonfun$contribute$2(MillifyScalaCliDependencyCodeAction.scala:36)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.MillifyScalaCliDependencyCodeAction.$anonfun$contribute$1(MillifyScalaCliDependencyCodeAction.scala:35)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2024.10.22 10:55:48 INFO  compiling big_data_analysis_6be9902dc4 (1 scala source)
+2024.10.22 10:55:48 INFO  time: compiled big_data_analysis_6be9902dc4 in 0.89s
+2024.10.22 10:55:49 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.65s
+2024.10.22 10:56:29 INFO  running doctor check
+2024.10.22 10:56:29 INFO  java targets: big_data_analysis_6be9902dc4, big_data_analysis_6be9902dc4-test
+2024.10.22 10:56:30 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.55s
+2024.10.22 10:56:30 INFO  running doctor check
+2024.10.22 10:56:30 INFO  java targets: big_data_analysis_6be9902dc4, big_data_analysis_6be9902dc4-test
+2024.10.22 10:56:30 INFO  compiling big_data_analysis_6be9902dc4 (1 scala source)
+2024.10.22 10:56:30 INFO  time: compiled big_data_analysis_6be9902dc4 in 0.86s
+2024.10.22 10:56:32 INFO  time: indexed workspace in 2.66s
+2024.10.22 10:56:33 INFO  time: indexed workspace in 2.49s
+2024.10.22 10:56:34 INFO  time: code lens generation in 2.04s
+2024.10.22 10:56:34 INFO  time: code lens generation in 1.18s
+2024.10.22 10:56:34 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.68s
+2024.10.22 10:56:35 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.45s
+2024.10.22 10:56:52 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.5s
+2024.10.22 10:57:42 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.52s
+2024.10.22 10:58:46 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.44s
+2024.10.22 11:02:31 INFO  compiling big_data_analysis_6be9902dc4 (1 scala source)
+2024.10.22 11:02:31 INFO  time: compiled big_data_analysis_6be9902dc4 in 0.65s
+2024.10.22 11:02:33 INFO  time: evaluated worksheet 'example.worksheet.sc' in 0.64s
+2024.10.24 16:05:35 INFO  Shutting down server
+2024.10.24 16:05:35 INFO  shutting down Metals
+2024.10.24 16:05:35 INFO  Shut down connection with build server.
+2024.10.24 16:05:35 INFO  Exiting server

@@ -1,0 +1,20 @@
+{
+  "name": "scala-cli",
+  "argv": [
+    "/home/htetaunglynn/.local/share/coursier/bin/.scala-cli.aux",
+    "bsp",
+    "--json-options",
+    "/home/htetaunglynn/git/coursera/big_data_analysis/.scala-build/ide-options-v2.json",
+    "--json-launcher-options",
+    "/home/htetaunglynn/git/coursera/big_data_analysis/.scala-build/ide-launcher-options.json",
+    "--envs-file",
+    "/home/htetaunglynn/git/coursera/big_data_analysis/.scala-build/ide-envs.json",
+    "/home/htetaunglynn/git/coursera/big_data_analysis"
+  ],
+  "version": "1.5.1",
+  "bspVersion": "2.1.1",
+  "languages": [
+    "scala",
+    "java"
+  ]
+}
